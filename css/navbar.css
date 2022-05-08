@@ -1,0 +1,27 @@
+.navbar {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.navbar-content {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: baseline;
+}
+
+.navbar-item {
+    margin-bottom: 0px;
+    font-family: Computer Modern, CMU Serif Extra;
+    font-weight: 100;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('../font/cmunsl.ttf') format(truetype);
+}

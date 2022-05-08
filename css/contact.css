@@ -1,0 +1,28 @@
+body {
+    background-color: #FFFFFF;
+
+    text-align: center;
+    color: #000000;
+    font-family: Computer Modern, CMU Serif Extra;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: center;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 33%;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #FFFFFF;
+
+    text-align: center;
+    color: #000000;
+    font-family: Computer Modern, CMU Serif Extra;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 33%;
+}
