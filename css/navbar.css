@@ -25,3 +25,9 @@
     font-family: 'Computer Modern';
     src: url('../font/cmunsl.ttf') format(truetype);
 }
+
+@media (max-width: 480px) {
+    .navbar {
+        grid-template-columns: 0% 100% 0%;
+    }
+}

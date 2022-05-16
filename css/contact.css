@@ -15,14 +15,22 @@ body {
 }
 
 .content a {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: #000000;
 }
 
 .content a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-hr {
-    width: 33%;
+@media (max-width: 1200px) {
+    .content {
+        grid-template-columns: 22.5% 55% 22.5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        grid-template-columns: 10% 80% 10%;
+    }
 }

@@ -1,6 +1,5 @@
 body {
     background-color: #FFFFFF;
-
     text-align: center;
     color: #000000;
     font-family: Computer Modern, CMU Serif Extra;
@@ -13,6 +12,40 @@ body {
     margin-top: 50px;
 }
 
-hr {
-    width: 33%;
+#writing {
+    margin-bottom: 100px;
+}
+
+.content a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+#goback {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+p {
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        grid-template-columns: 22.5% 55% 22.5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        grid-template-columns: 10% 80% 10%;
+    }
 }
